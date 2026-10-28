@@ -1,0 +1,36 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "Full-stack portfolio & blog REST API built with Node.js, Express and Mongoose",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "rest-api",
+    "portfolio",
+    "blog",
+    "jwt"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
